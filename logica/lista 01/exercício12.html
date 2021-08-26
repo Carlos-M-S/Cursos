@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+var temperatura = prompt("Informe Temperatura")
+
+var converção = prompt("1) Celsius para Fahrenheit \n2) Fahrenheit para Celsius")
+
+if(converção == "1"){
+    document.write("F " + (temperatura * 9/5 +32).toFixed(2))
+}else if(converção == "2"){
+    document.write("C " + ((temperatura - 32) * 5/9).toFixed(2))
+}else{ 
+    document.write("Opção Invalida")
+}
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

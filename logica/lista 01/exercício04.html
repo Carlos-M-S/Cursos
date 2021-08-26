@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var nota1 = parseFloat(prompt("Informe o primeira nota "))
+        var nota2 = parseFloat(prompt("Informe o segundo nota"))
+        var nota3 = parseFloat(prompt("Informe o terceira nota"))
+
+        document.write("A média das Notas é: " + ((nota1+nota2+nota3)/3).toFixed(2))
+        
+
+        if ((nota1+nota2+nota3)/3>=7){
+            document.write("<br> Você foi Aprovado(a)")
+            
+        }else{
+            document.write("<br> Você foi Reprovado(a)")
+            
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+
+var paises = prompt("1) Espanha \n2) Japão \n3) Estados Unidos")
+
+var horarioBrasil = parseInt(prompt("Informe Horario Brasileiro"))
+
+// Condicional
+if(paises == "1"){
+    document.write("Horas" + (horarioBrasil +5))
+}else if(paises == "2"){
+    document.write("Horas " + (horarioBrasil +12))
+}else if(paises =="3"){
+    document.write("Horas" + (horarioBrasil - 1))
+}else{
+    document.write("Erro")
+}
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var salario =  parseFloat(prompt("Informe seu Salário"))
+        var contaDeLuz = parseFloat(prompt("Gasto de Luz"))
+        var contaDeTelefone = parseFloat(prompt("Gasto com Telefone"))
+        var contaDeAgua = parseFloat(prompt("Gasto de Água"))
+        var mercado = parseFloat(prompt("Gasto com Mercado"))
+        var aluguel = parseFloat(prompt("Aluguel Pago"))
+        var laser = parseFloat(prompt("Gostos com laser"))
+        
+        var total = salario - (contaDeLuz + contaDeTelefone + contaDeAgua + mercado + aluguel + laser)
+        if(total == 0){
+    document.write("R$" +(total)+ "<br> Você não tem dinheiro")
+}else if(total >=1){
+    document.write("R$" +(total )+ "<br> Você ainda tem dinheiro")
+}else if(total<0){ 
+    document.write("R$" +(total) + "<br> Você está devendo!")
+}
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
